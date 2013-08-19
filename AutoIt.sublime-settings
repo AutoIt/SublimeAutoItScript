@@ -1,5 +1,6 @@
 {
 	"AutoItExePath": "C:\\Program Files\\AutoIt3\\AutoIt3.exe",
 	"AutoItCompilerPath": "C:\\Program Files\\AutoIt3\\Aut2Exe\\Aut2exe.exe",
-	"TidyExePath": "C:\\Program Files\\AutoIt3\\SciTE\\Tidy\\Tidy.exe"
+	"TidyExePath": "C:\\Program Files\\AutoIt3\\SciTE\\Tidy\\Tidy.exe",
+	// "IncludeHelperAU3Path": "{PACKAGE_PATH}\\AutoItScript\\Include_Helper.au3"
 }

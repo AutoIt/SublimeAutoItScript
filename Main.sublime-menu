@@ -6,7 +6,8 @@
 	 "children":
 		[
 			{ "caption": "-", "id": "packagecommands" },
-			{ "command": "autoittidy", "caption": "AutoIt Tidy", "mnemonic": "T"}
+			{ "command": "autoittidy", "caption": "AutoIt - Tidy", "mnemonic": "T"},
+			{ "command": "autoitincludehelper", "caption": "AutoIt - IncludeHelper", "mnemonic": "I"}
 		]
 	},
 	{
