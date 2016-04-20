@@ -67,3 +67,26 @@ class autoitincludehelper(sublime_plugin.WindowCommand):
 			print("------------ ERROR: Python exception trying to run following command ------------")
 			print(AutoItIncludeCmd)
 			print("Error {0}".format(str(e)))
+			
+class autoitinfo(sublime_plugin.WindowCommand):
+	def run(self):
+		filepath = self.window.active_view().file_name()
+		AutoItInfo = sublime.load_settings("AutoIt.sublime-settings").get("AutoItInfo")
+
+		try:
+			subprocess.call(AutoItInfo)
+		except Exception as e:
+			sublime.active_window().run_command("show_panel", {"panel": "console"})
+			print("------------ ERROR: Python exception trying to run following command ------------")
+			print("Error {0}".format(str(e)))
+
+class autoithelp(sublime_plugin.WindowCommand):
+	def run(self):
+		AutoItHelp = sublime.load_settings("AutoIt.sublime-settings").get("AutoItHelp")
+
+		try:
+			os.startfile(AutoItHelp)
+		except Exception as e:
+			sublime.active_window().run_command("show_panel", {"panel": "console"})
+			print("------------ ERROR: Python exception trying to run following command ------------")
+			print("Error {0}".format(str(e)))

@@ -7,7 +7,9 @@
 		[
 			{ "caption": "-", "id": "packagecommands" },
 			{ "command": "autoittidy", "caption": "AutoIt - Tidy", "mnemonic": "T"},
-			{ "command": "autoitincludehelper", "caption": "AutoIt - IncludeHelper", "mnemonic": "I"}
+			{ "command": "autoitincludehelper", "caption": "AutoIt - IncludeHelper", "mnemonic": "I"},    
+			{ "command": "autoitinfo", "caption": "AutoIt - Info", "mnemonic": "f"},
+			{ "command": "autoithelp", "caption": "AutoIt - Help", "mnemonic": "H"}
 		]
 	},
 	{

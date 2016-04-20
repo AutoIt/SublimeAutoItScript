@@ -6,5 +6,13 @@
     {
         "caption": "AutoIt - IncludeHelper",
         "command": "autoitincludehelper"
+    },    
+    {
+        "caption": "AutoIt - Info",
+        "command": "autoitinfo"
+    },
+    {
+        "caption": "AutoIt - Help",
+        "command": "autoithelp"
     }
 ]

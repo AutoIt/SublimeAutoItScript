@@ -1,0 +1,28 @@
+{
+	"scope": "source.autoit",
+	"completions": [{
+		"trigger": "Func",
+		"contents": "Func ${1:NameFunc}()\n\n\t${2}\n\nEndFunc"
+	}, {
+		"trigger": "If",
+		"contents": "If ( ${1:true} ) Then\n\n\t${2}\n\nEndIf"
+	}, {
+		"trigger": "Ternary",
+		"contents": "${1:\\$variable} = ( ${2:\\$a == \\$b} ) ? ${3:true} : ${4:false}"
+	}, {
+		"trigger": "Switch",
+		"contents": "Switch (${1:\\$variable})\n\tCase ${2:6 To 11}\n\t\t${3:true}\n\tCase ${4:12 To 17}\n\t\t${5:true}\n\tCase Else\n\t\t${6:false}\nEndSwitch"
+	},  {
+		"trigger": "While",
+		"contents": "While ( ${1:true} )\n\n\t${2}\n\nWEnd"
+	}, {
+		"trigger": "ForInNext",
+		"contents": "For ${1:\\$vElement} In ${2:\\$aArray}\n\n\t${3:ConsoleWrite(\\$vElement)}\n\nNext"
+	}, {
+		"trigger": "ForToStepNext",
+		"contents": "For \\$${1:i} = ${2:0} To ${3:1} Step ${4:+1}\n\n\t${5:ConsoleWrite(\\$i)}\n\nNext"
+	}, {
+		"trigger": "#cs",
+		"contents": "#cs\n\t${1}\n#ce"
+	}]
+}
