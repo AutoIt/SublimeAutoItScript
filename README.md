@@ -11,6 +11,8 @@ If you have the default Sublime keybindings intact, then:
 * <kbd>Ctrl+Shift+B</kbd> will compile the current file (with Aut2Exe.exe)
 * <kbd>Alt+T</kbd><kbd>T</kbd> will invoke Tidy on the current file (with Tidy.exe).
 * <kbd>Alt+T</kbd><kbd>I</kbd> will invoke IncludeHelper on the current file.
+* <kbd>Alt+T</kbd><kbd>F</kbd> will invoke AutoIt Window Info.
+* <kbd>Alt+T</kbd><kbd>H</kbd> will invoke AutoIt Help.
 
 ## Advanced Configuration
 For the build systems and Tidy command, if you have a non-default installation you will need to set your specific path to AutoIt3.exe, Aut2Exe.exe, and Tidy.exe in a file named AutoIt.sublime-settings in your User folder. You can access the settings file from Menu `Preferences > Package Settings > AutoIt`. You should make a copy of `AutoIt Settings - Default` at `AutoIt Settings - User` since then your settings file in your User folder will not get overwritten when this package updates.
