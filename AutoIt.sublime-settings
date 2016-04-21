@@ -3,6 +3,6 @@
 	"AutoItCompilerPath": "C:\\Program Files\\AutoIt3\\Aut2Exe\\Aut2exe.exe",
 	"TidyExePath": "C:\\Program Files\\AutoIt3\\SciTE\\Tidy\\Tidy.exe",
 	"IncludeHelperAU3Path": "{PACKAGE_PATH}\\AutoItScript\\Include_Helper.au3",    
-	"AutoItInfo": "C:\\Program Files\\AutoIt3\\Au3Info_x64.exe",
+	"AutoItInfo": "C:\\Program Files\\AutoIt3\\Au3Info.exe",
 	"AutoItHelp": "C:\\Program Files\\AutoIt3\\AutoIt.chm"
 }

@@ -34,6 +34,6 @@
 	{ "trigger": "MB_RTLREADING Flag MsgBox Constant Name", "contents": "\\$MB_RTLREADING" },
 	{ "trigger": "MB_SETFOREGROUND Flag MsgBox Constant Name", "contents": "\\$MB_SETFOREGROUND" },
 	{ "trigger": "MB_TOPMOST Flag MsgBox Constant Name", "contents": "\\$MB_TOPMOST" },
-	{ "trigger": "MB_SERVICE_NOTIFICATION Flag MsgBox Constant Name", "contents": "\\$MB_SERVICE_NOTIFICATION " },
+	{ "trigger": "MB_SERVICE_NOTIFICATION Flag MsgBox Constant Name", "contents": "\\$MB_SERVICE_NOTIFICATION " }
 	]
 }

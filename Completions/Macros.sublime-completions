@@ -101,6 +101,6 @@
 	{ "trigger": "@WindowsDir", "contents": "@WindowsDir" },
 	{ "trigger": "@WorkingDir", "contents": "@WorkingDir" },
 	{ "trigger": "@YDAY", "contents": "@YDAY" },
-	{ "trigger": "@YEAR", "contents": "@YEAR" },	
+	{ "trigger": "@YEAR", "contents": "@YEAR" }	
 	]
 }

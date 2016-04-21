@@ -77,7 +77,7 @@ class autoitinfo(sublime_plugin.WindowCommand):
 			subprocess.call(AutoItInfo)
 		except Exception as e:
 			sublime.active_window().run_command("show_panel", {"panel": "console"})
-			print("------------ ERROR: Python exception trying to run following command ------------")
+			print("------------ ERROR: Python exception trying to run AutoIt Window Info ------------")
 			print("Error {0}".format(str(e)))
 
 class autoithelp(sublime_plugin.WindowCommand):
@@ -88,5 +88,5 @@ class autoithelp(sublime_plugin.WindowCommand):
 			os.startfile(AutoItHelp)
 		except Exception as e:
 			sublime.active_window().run_command("show_panel", {"panel": "console"})
-			print("------------ ERROR: Python exception trying to run following command ------------")
+			print("------------ ERROR: Python exception trying to run AutoIt Help ------------")
 			print("Error {0}".format(str(e)))

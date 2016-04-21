@@ -84,6 +84,6 @@
 	{ "trigger": "LAUNCH_MEDIA Send Key List", "contents": "{LAUNCH_MEDIA}"},
 	{ "trigger": "LAUNCH_APP1 Send Key List", "contents": "{LAUNCH_APP1}"},
 	{ "trigger": "LAUNCH_APP2 Send Key List", "contents": "{LAUNCH_APP2}"},
-	{ "trigger": "OEM_102 Send Key List", "contents": "{OEM_102}"},
+	{ "trigger": "OEM_102 Send Key List", "contents": "{OEM_102}"}
 	]
 }
