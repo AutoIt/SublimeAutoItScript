@@ -30,5 +30,11 @@
 	}, {
 		"trigger": "Region...EndRegion",
 		"contents": "#Region\n\n\t${1}\n\n#EndRegion"
+	}, {
+		"trigger": "#debug_console",
+		"contents": ";### [DEBUG CONSOLE] ###\nConsoleWrite('@@ Debug(' & @ScriptLineNumber & ') : \\$${1:variable} = ' & _\n\t\\$${1:variable} & @CRLF & '>Error code: ' & @error & @CRLF)"
+	}, {
+		"trigger": "#debug_msgbox",
+		"contents": ";### [DEBUG MSG_BOX] ###\nMsgBox(262144, 'Debug line ~' & @ScriptLineNumber, 'Selection:' & @CRLF & _\n\t'\\$${1:variable}' & @CRLF & @CRLF & 'Return:' & @CRLF & \\$${1:variable})"
 	}]
 }
